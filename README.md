@@ -15,11 +15,21 @@ Each JSON file follows this structure:
 [
     {
         "idAL": 116589,
-        "idMal": 41457
+        "idMal": 41457,
+        "title": {
+            "romaji": "86: Eighty Six",
+            "english": "86 EIGHTY-SIX",
+            "native": "86－エイティシックス－"
+        }
     },
     {
         "idAL": 131586,
-        "idMal": 48569
+        "idMal": 48569,
+        "title": {
+            "romaji": "86: Eighty Six Part 2",
+            "english": "86 EIGHTY-SIX Part 2",
+            "native": "86－エイティシックス－ 第2クール"
+        }
     }
     ...
 ]
@@ -27,6 +37,7 @@ Each JSON file follows this structure:
 
 * `idAL`: The ID of the anime or manga on AniList.
 * `idMal`: The corresponding ID of the anime or manga on MyAnimeList.
+* `titles`: Contains the anime or manga title in the `romaji`, `english`, or `native` language.
 
 ## Usage
 
