@@ -5,11 +5,31 @@ This repository hosts JSON files containing ID mappings between AniList and MyAn
 ## Files
 
 - **anime.json**: Contains ID mappings for anime.
+- **anime-with-titles.json**: Contains ID mappings and titles for anime.
 - **manga.json**: Contains ID mappings for manga.
+- **manga-with-titles.json**: Contains ID mappings and titles for manga.
 
 ## File Structure
 
-Each JSON file follows this structure:
+JSON file follows this structure:
+
+### anime.json / manga.json
+
+```json
+[
+    {
+        "idAL": 116589,
+        "idMal": 41457,
+    },
+    {
+        "idAL": 131586,
+        "idMal": 48569,
+    }
+    ...
+]
+```
+
+### anime-with-titles.json / manga-with-titles.json
 
 ```json
 [
