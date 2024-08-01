@@ -36,7 +36,7 @@ JSON file follows this structure:
     {
         "idAL": 116589,
         "idMal": 41457,
-        "title": {
+        "titles": {
             "romaji": "86: Eighty Six",
             "english": "86 EIGHTY-SIX",
             "native": "86－エイティシックス－"
@@ -45,7 +45,7 @@ JSON file follows this structure:
     {
         "idAL": 131586,
         "idMal": 48569,
-        "title": {
+        "titles": {
             "romaji": "86: Eighty Six Part 2",
             "english": "86 EIGHTY-SIX Part 2",
             "native": "86－エイティシックス－ 第2クール"
